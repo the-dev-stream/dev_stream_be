@@ -14,4 +14,8 @@ app.use(cors({
 app.use(express.json());
 app.use(morgan('dev'));
 
+app.get('/v', (req, res) => {
+  res.send('Application is running');
+});
+
 export { app };
