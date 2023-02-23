@@ -1,0 +1,24 @@
+{
+  "name": "dev-stream-backend",
+  "version": "0.1.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child --ignore-watch src/server.ts"
+  },
+  "repository": "https://github.com/Felipstein/dev_stream_be.git",
+  "author": "Felipstein <luisfelipe-oliveira@outlook.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.14.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
